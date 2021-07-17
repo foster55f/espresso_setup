@@ -4,5 +4,8 @@ class LoginTestSuite  {
     val activityScenarioRule =
             ActivityScenarioRule(com.sourcey.materiallogindemo.MainActivity::class.java)
 
+    fun verifyLoginView() {
+        assertLoginViewDisplay()
+    }
 
 }
