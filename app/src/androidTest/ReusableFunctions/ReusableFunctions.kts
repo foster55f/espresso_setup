@@ -1,9 +1,8 @@
-
-fun assertViewIsDisplayed(view: ViewInteraction){
+fun assertViewIsDisplayed(view: ViewInteraction) {
     view.check(matches(isDisplayed()));
 }
 
-fun assertTextIsDisplayed(text: String){
+fun assertTextIsDisplayed(text: String) {
     onView(withText(text)).check(matches(isDisplayed()));
 }
 

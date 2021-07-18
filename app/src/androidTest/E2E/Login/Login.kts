@@ -6,11 +6,11 @@ import androidx.test.espresso.accessibility.AccessibilityChecks
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 
-class LoginTestSuite  {
+class LoginTestSuite {
 
     @get: Rule
     val activityScenarioRule =
-            ActivityScenarioRule(com.sourcey.materiallogindemo.LoginAcitivty::class.java)
+        ActivityScenarioRule(com.sourcey.materiallogindemo.LoginAcitivty::class.java)
 
     @test
     fun verifyLoginView() {
@@ -23,7 +23,7 @@ class LoginTestSuite  {
         @JvmStatic
         fun enableAccessibilityChecks() {
             AccessibilityChecks.enable()
-                    .setRunChecksFromRootView(true)
+                .setRunChecksFromRootView(true)
         }
     }
 }
