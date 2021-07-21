@@ -8,7 +8,7 @@ val signupLink = onView(withId(R.id.link_signup))
 //Text Elements
 
 val emailInputError = "enter a valid email address"
-val paswordInputError = "between 4 and 10 alphanumeric characters"
+val paswordInputError = "between 4 and 19 alphanumeric characters"
 
 //Functions
 
